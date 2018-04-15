@@ -132,6 +132,7 @@
         android:singleLine="false"
         android:text="Settings"
         android:textAlignment="center"
+        android:textIsSelectable="false"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/radioButton2"
