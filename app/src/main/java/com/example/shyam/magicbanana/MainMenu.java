@@ -21,6 +21,7 @@ public class MainMenu extends AppCompatActivity {
 
         Button btn1 = (Button) findViewById(R.id.button2);
         Button btn3 = (Button) findViewById(R.id.button3);
+        Button btn4 = (Button) findViewById(R.id.button);
 
 
         //Intents for the buttons on how to changes to different class page.
@@ -38,6 +39,13 @@ public class MainMenu extends AppCompatActivity {
             public void onClick(View view) {
                 Intent int2= new Intent(MainMenu.this, about.class);
                 startActivity(int2);
+            }
+        });
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int3= new Intent(MainMenu.this, game.class);
+                startActivity(int3);
             }
         });
 
