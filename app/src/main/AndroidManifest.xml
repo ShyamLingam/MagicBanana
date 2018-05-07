@@ -15,10 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="settings"></activity>
-        <activity android:name="about"></activity>
-        <activity android:name="game"></activity>
-
+        <activity android:name=".settings" />
+        <activity android:name=".about" />
+        <activity android:name=".game" />
+        <activity android:name=".result"></activity>
     </application>
 
 </manifest>
