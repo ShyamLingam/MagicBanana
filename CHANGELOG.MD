@@ -19,3 +19,34 @@ Changed:
 Removed:
 
 N/A
+
+2-04-2018
+
+Added:
+
+- Added Main game page
+- Configured intent to navigate to game page
+
+Changed:
+
+
+
+Removed:
+
+- Removed Top Bar Settings
+
+7-04-2018
+
+Added:
+
+- Added Monkey icon and movement feature to game page
+- Added moving banana icons
+- Added Score Count to count how many bananas
+
+Changed:
+
+N/A
+
+Removed:
+
+N/A
