@@ -44,7 +44,7 @@ public class MainMenu extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent int3= new Intent(MainMenu.this, game.class);
+                Intent int3= new Intent(MainMenu.this, startgame.class);
                 startActivity(int3);
             }
         });

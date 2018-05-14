@@ -18,7 +18,8 @@
         <activity android:name=".settings" />
         <activity android:name=".about" />
         <activity android:name=".game" />
-        <activity android:name=".result"></activity>
+        <activity android:name=".result" />
+        <activity android:name=".startgame"></activity>
     </application>
 
 </manifest>

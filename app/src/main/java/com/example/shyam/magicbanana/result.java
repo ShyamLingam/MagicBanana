@@ -41,7 +41,7 @@ public class result extends AppCompatActivity {
     }
 
     public void tryAgain(View view) {
-        startActivity(new Intent(getApplicationContext(), game.class));
+        startActivity(new Intent(getApplicationContext(), startgame.class));
 
     }
 
