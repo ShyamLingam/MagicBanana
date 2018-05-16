@@ -15,12 +15,21 @@ public class startgame extends AppCompatActivity {
 
 
     Button btn10 = (Button) findViewById(R.id.button10);
+        Button btn11 = (Button) findViewById(R.id.button11);
 
         btn10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent int1 = new Intent(startgame.this, game.class);
                 startActivity(int1);
+            }
+        });
+
+        btn11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int2 = new Intent(startgame.this, MainMenu.class);
+                startActivity(int2);
             }
         });
 

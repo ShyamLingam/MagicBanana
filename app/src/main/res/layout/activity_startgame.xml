@@ -6,7 +6,8 @@
     android:background="@drawable/map"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.example.shyam.magicbanana.startgame">
+    tools:context="com.example.shyam.magicbanana.startgame"
+    android:weightSum="1">
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,24 +26,24 @@
         <TableRow android:gravity="center_vertical">
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:src="@drawable/pink" />
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/magic" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:text="30 point"
-                android:textSize="18sp" />
+                android:textSize="20sp" />
 
         </TableRow>
 
         <TableRow android:gravity="center_vertical">
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/banana" />
 
             <TextView
@@ -50,23 +51,23 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:text="10 point"
-                android:textSize="18sp" />
+                android:textSize="20sp" />
 
         </TableRow>
 
         <TableRow android:gravity="center_vertical">
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:src="@drawable/black" />
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/poison" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:text="Game Over"
-                android:textSize="18sp" />
+                android:textSize="20sp" />
 
         </TableRow>
 
@@ -74,11 +75,25 @@
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:onClick="Playgame"
-        android:text="START GAME" />
+        android:text="START GAME"
+        android:layout_weight="0.02"
+
+        />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:onClick="returnmenu"
+        android:text="Return to Menu"
+        android:layout_weight="0.02"
+
+        />
 
 
 </LinearLayout>
