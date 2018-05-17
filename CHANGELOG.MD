@@ -20,7 +20,7 @@ Removed:
 
 N/A
 
-2-04-2018
+2-05-2018
 
 Added:
 
@@ -35,7 +35,7 @@ Removed:
 
 - Removed Top Bar Settings
 
-7-04-2018
+7-05-2018
 
 Added:
 
@@ -50,3 +50,50 @@ N/A
 Removed:
 
 N/A
+
+8-05-2018
+
+Added:
+
+N/A
+
+Changed:
+
+-Changed Monkey Icon
+-Change main banana icon
+
+Removed:
+
+-Removed Background Map
+
+10-05-2018
+
+Added:
+
+-Add new background to suit game play
+
+Changed:
+
+-Change the enemy icon, to a poison icon for loss of points
+
+Removed:
+
+-N/A
+
+16-05-2018
+
+Added:
+
+
+
+Changed:
+
+-Modying layout for clean look
+-Changed colours to suit
+
+Removed:
+
+-Removed extra banana icon above the score list on the game play mode
+-N/A
+
+
