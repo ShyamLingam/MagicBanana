@@ -1,6 +1,7 @@
 package com.example.shyam.magicbanana;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -9,7 +10,8 @@ import android.widget.Button;
 
 public class MainMenu extends AppCompatActivity {
 
-
+    MediaPlayer mysong;
+    Button son;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,22 +19,22 @@ public class MainMenu extends AppCompatActivity {
         setContentView(R.layout.activity_main_menu);
 
 
+        son = (Button) findViewById(R.id.soundon);
+
+        mysong = MediaPlayer.create(MainMenu.this, R.raw.main);
+
+
+        mysong.start();
+
         //Configuring Buttons
 
-        Button btn1 = (Button) findViewById(R.id.button2);
+        Button btn15 = (Button) findViewById(R.id.button2);
         Button btn3 = (Button) findViewById(R.id.button3);
         Button btn4 = (Button) findViewById(R.id.button);
 
 
         //Intents for the buttons on how to changes to different class page.
 
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent int1 = new Intent(MainMenu.this, settings.class);
-                startActivity(int1);
-            }
-        });
 
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,10 +51,22 @@ public class MainMenu extends AppCompatActivity {
             }
         });
 
+        btn15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int4= new Intent(MainMenu.this, settings.class);
+                startActivity(int4);
+            }
+        });
+
     }
+
+
+
     // This method closes the application
     public void clickexit(View v) {
         moveTaskToBack(true);
+        mysong.release();
         android.os.Process.killProcess(android.os.Process.myPid());
         System.exit(1);
     }

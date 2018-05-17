@@ -34,7 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
-                android:text="30 point"
+                android:text="10 point"
                 android:textSize="20sp" />
 
         </TableRow>
@@ -50,7 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
-                android:text="10 point"
+                android:text="5 point"
                 android:textSize="20sp" />
 
         </TableRow>
