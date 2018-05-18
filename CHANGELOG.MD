@@ -96,4 +96,34 @@ Removed:
 -Removed extra banana icon above the score list on the game play mode
 -N/A
 
+17-05-2018
+
+Added:
+
+Add second activity for hard level game play
+Add new map dispay
+Add background music to app
+
+Changed:
+
+
+Removed:
+
+-Removed Old Map display
+
+18-05-2018
+
+Added:
+
+Completed the intent for the new mode game play intermediate mode
+Finalised README and License txt files for uploading
+
+Changed:
+
+
+Removed:
+
+-Removed Old Map display
+
+
 
