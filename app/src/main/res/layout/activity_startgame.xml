@@ -3,19 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/map"
+    android:background="@drawable/main"
     android:gravity="center"
     android:orientation="vertical"
     tools:context="com.example.shyam.magicbanana.startgame"
     android:weightSum="1">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
         android:text="Catch the Banana's"
-        android:textColor="@android:color/holo_green_light"
-        android:textSize="36sp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="34sp"
         android:textStyle="bold" />
 
     <TableLayout
@@ -35,7 +36,10 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:text="10 point"
-                android:textSize="20sp" />
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
         </TableRow>
 
@@ -51,7 +55,10 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:text="5 point"
-                android:textSize="20sp" />
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
         </TableRow>
 
@@ -65,9 +72,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingLeft="20dp"
                 android:text="Game Over"
-                android:textSize="20sp" />
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
         </TableRow>
 
@@ -75,23 +85,32 @@
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="160dp"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_weight="0.03"
+        android:onClick="Playgame"
+        android:text="EASY MODE"
+
+        />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="191dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:onClick="Playgame"
-        android:text="START GAME"
-        android:layout_weight="0.02"
+        android:text="IMMEDIATE MODE"
 
         />
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
+        android:layout_width="177dp"
+        android:layout_height="42dp"
         android:layout_marginTop="60dp"
         android:onClick="returnmenu"
         android:text="Return to Menu"
-        android:layout_weight="0.02"
 
         />
 

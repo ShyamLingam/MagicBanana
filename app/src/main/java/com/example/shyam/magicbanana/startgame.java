@@ -16,20 +16,29 @@ public class startgame extends AppCompatActivity {
 
     Button btn10 = (Button) findViewById(R.id.button10);
         Button btn11 = (Button) findViewById(R.id.button11);
+        Button btn8 = (Button) findViewById(R.id.button8);
 
         btn10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent int1 = new Intent(startgame.this, game.class);
+                Intent int1 = new Intent(startgame.this, game1.class);
                 startActivity(int1);
+            }
+        });
+
+        btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int2 = new Intent(startgame.this, game2.class);
+                startActivity(int2);
             }
         });
 
         btn11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent int2 = new Intent(startgame.this, MainMenu.class);
-                startActivity(int2);
+                Intent int3 = new Intent(startgame.this, MainMenu.class);
+                startActivity(int3);
             }
         });
 

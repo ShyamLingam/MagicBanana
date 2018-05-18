@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/result"
     tools:context="com.example.shyam.magicbanana.result"
     android:orientation="vertical"
     android:gravity="center">
@@ -11,26 +12,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GAME OVER"
-        android:textSize="30sp"/>
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/scoreLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
         android:text="150"
         android:textSize="40sp"
-        android:layout_marginTop="80dp"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/highScoreLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
         android:text="High Score: 300"
         android:textSize="20sp"
-        android:layout_marginTop="80dp"/>
+        android:textStyle="bold" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Try Again"
