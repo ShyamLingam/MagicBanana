@@ -1,5 +1,21 @@
 # MagicBanana
-Magic Banana Game Student ID: 214211857 Shyam Lingam SIT305
+Magic Banana Game 
+Student ID: 214211857 
+Shyam Lingam 
+SIT305
+Platform: Android
+Link for github: https://github.com/ShyamLingam/MagicBanana
+
+App Overview:
+Zoku	 the	 baby	 monkey	 has	 just	 discovered	 that	 his	 mother	 is	 sick.	 He	 had	
+previously	 heard	 that	 there	 are	 magic	 bananas	 located within	the forest.
+The objective of this game is to collect as many banana's as possible. Bonus points are collected when magic bananas are collected.
+
+Features:
+Easy Mode (Begineers)
+Intermediate Mode ( Advanced Users)
+In Game Music
+Support on Android Devices
 
 
 # Henry comments 13/April
