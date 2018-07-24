@@ -126,4 +126,18 @@ Removed:
 -Removed Old Map display
 
 
+23-07-2018
+
+Added:
+
+Provided access to UNIT SIT313 Unit Chair access to GitHub : frankjiang2018
+
+Re-using this application for Project 1 for SIT313
+
+Changed:
+
+Modified Git Files
+
+Removed:
+
 
