@@ -60,6 +60,9 @@ public class game1 extends AppCompatActivity {
     //Int Class
     private Handler handler = new Handler();
     private Timer timer = new Timer();
+    private SoundPlayer sound;
+
+
 
 
     // Status Check
@@ -75,6 +78,8 @@ public class game1 extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game1);
+
+        sound = new SoundPlayer(this);
 
         scoreLabel = (TextView) findViewById(R.id.scoreLabel);
         startLabel = (TextView) findViewById(R.id.startLabel);
@@ -180,10 +185,11 @@ public class game1 extends AppCompatActivity {
 
             score += 5;
             bananaX = -10;
+            sound.playHitSound();
 
         }
 
-        //pink
+        //magic
         int magicCenterX = magicX + magic.getWidth() / 2;
         int magicCenterY = magicY + magic.getHeight() / 2;
 
@@ -192,6 +198,7 @@ public class game1 extends AppCompatActivity {
 
             score += 10;
             magicX = -10;
+            sound.playHitSound();
 
 
         }
@@ -205,6 +212,8 @@ public class game1 extends AppCompatActivity {
 
             // Stop Timer
             timer.cancel();
+
+            sound.playOverSound();
 
 
 

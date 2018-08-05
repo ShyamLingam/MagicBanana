@@ -10,115 +10,54 @@
     tools:layout_editor_absoluteY="25dp">
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/musicon"
+        android:layout_width="159dp"
+        android:layout_height="48dp"
+        android:text="Button On"
+        android:onClick="son"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="298dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.502" />
+
+    <Button
+        android:id="@+id/musicoff"
         android:layout_width="0dp"
         android:layout_height="48dp"
+        android:text="Button Off"
+        android:onClick="soff"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/musicon"
+        app:layout_constraintTop_toBottomOf="@+id/musicon"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/musicon" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
         android:background="@android:color/background_dark"
         android:text="Return to main menu"
         android:textColor="@android:color/background_light"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="70dp"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton5"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="94dp"
+        app:layout_constraintTop_toBottomOf="@+id/musicon"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="64dp" />
+        android:layout_marginBottom="92dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:background="@android:color/background_dark"
-        android:text="Sound Off"
-        android:textColor="@android:color/background_light"
-        app:buttonTint="@android:color/background_light"
-        android:layout_marginRight="16dp"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="99dp"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <RadioButton
-        android:id="@+id/radioButton3"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:background="@android:color/background_dark"
-        android:text="Music On"
-        android:textColor="@android:color/background_light"
-        app:buttonTint="@android:color/background_light"
-        android:layout_marginLeft="16dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="73dp"
-        app:layout_constraintTop_toBottomOf="@+id/soundon" />
-
-    <RadioButton
-        android:id="@+id/radioButton4"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:background="@android:color/background_dark"
-        android:text="Music Off"
-        android:textColor="@android:color/background_light"
-        app:buttonTint="@android:color/background_light"
-        android:layout_marginRight="16dp"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="73dp"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
-
-    <RadioButton
-        android:id="@+id/radioButton5"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:background="@android:color/background_dark"
-        android:text="Help Tips On"
-        android:textColor="@android:color/background_light"
-        app:buttonTint="@android:color/background_light"
-        android:layout_marginLeft="16dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="63dp"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
-
-    <RadioButton
-        android:id="@+id/radioButton6"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:background="@android:color/background_dark"
-        android:text="Help Tips Off"
-        android:textColor="@android:color/background_light"
-        app:buttonTint="@android:color/background_light"
-        android:layout_marginRight="16dp"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="63dp"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
-
-    <RadioButton
-        android:id="@+id/soundon"
-        android:layout_width="150dp"
-        android:layout_height="0dp"
-        android:background="@android:color/background_dark"
-        android:text="Sound On"
-        android:textColor="@android:color/background_light"
-        app:buttonTint="@android:color/background_light"
-        android:layout_marginLeft="16dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/radioButton2"
-        app:layout_constraintTop_toTopOf="@+id/radioButton2" />
 
     <android.support.constraint.Guideline
         android:layout_width="wrap_content"
@@ -131,8 +70,8 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="0dp"
-        android:layout_height="47dp"
+        android:layout_width="382dp"
+        android:layout_height="55dp"
         android:contextClickable="false"
         android:cursorVisible="false"
         android:ems="10"
@@ -146,11 +85,16 @@
         android:textSize="24sp"
         android:textStyle="bold"
         tools:clickable="false"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="16dp"
+        tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        tools:layout_constraintLeft_creator="1" />
+        android:layout_marginEnd="2dp"
+        app:layout_constraintRight_toRightOf="@+id/musicon"
+        android:layout_marginTop="76dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+
 
 </android.support.constraint.ConstraintLayout>

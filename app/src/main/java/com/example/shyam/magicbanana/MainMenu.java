@@ -10,8 +10,7 @@ import android.widget.Button;
 
 public class MainMenu extends AppCompatActivity {
 
-    MediaPlayer mysong;
-    Button son;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,12 +18,8 @@ public class MainMenu extends AppCompatActivity {
         setContentView(R.layout.activity_main_menu);
 
 
-        son = (Button) findViewById(R.id.soundon);
-
-        mysong = MediaPlayer.create(MainMenu.this, R.raw.main);
 
 
-        mysong.start();
 
         //Configuring Buttons
 
@@ -66,7 +61,6 @@ public class MainMenu extends AppCompatActivity {
     // This method closes the application
     public void clickexit(View v) {
         moveTaskToBack(true);
-        mysong.release();
         android.os.Process.killProcess(android.os.Process.myPid());
         System.exit(1);
     }

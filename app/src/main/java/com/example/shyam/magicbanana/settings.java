@@ -16,6 +16,9 @@ import android.widget.Button;
 
 public class settings extends AppCompatActivity {
 
+    MediaPlayer mdx;
+    Button son, soff;
+
     private static final String TAG = "settings";
 
     @Override
@@ -23,6 +26,9 @@ public class settings extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.settings);
         Log.d(TAG, "OnCreate: Starting.");
+
+
+
 
         Button btn5 = (Button) findViewById(R.id.button5);
 
@@ -35,7 +41,22 @@ public class settings extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        son = (Button) findViewById(R.id.musicon);
+        soff = (Button) findViewById(R.id.musicoff);
+
+
+        mdx = MediaPlayer.create(settings.this, R.raw.main);
+    }
+
+    public void son(View v) {
+        mdx.start();
+    }
+
+    public void soff(View v) {
+        mdx.stop();
+    }
+
     }
 
 
-}
