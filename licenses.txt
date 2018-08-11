@@ -25,6 +25,12 @@ Author/Attribution: Shyam Lingam (created using icon from icon archive on MS wor
 Source Website: http://www.iconarchive.com/show/food-icons-by-martin-berube/banana-icon.html
 http://www.pngimg.com/download/187735
 
+Item Name:mainland.png
+License Type: Freeware
+Author/Attribution: Shyam Lingam (created using icon from icon archive on MS word)
+Source Website: http://www.iconarchive.com/show/food-icons-by-martin-berube/banana-icon.html
+http://www.pngimg.com/download/187735
+
 Item Name:map.png
 License Type: Freeware
 Author/Attribution: Shyam Lingam (created using icon from icon archive on MS word)
@@ -34,6 +40,15 @@ http://www.iconarchive.com/show/fantastic-dream-icons-by-rokey/flying-grass-icon
 http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Status-weather-clear-icon.html
 
 Item Name:map2.png
+License Type: Freeware
+Author/Attribution: Shyam Lingam (created using icon from icon archive on MS word)
+Source Website: http://www.iconarchive.com/show/summer-holiday-icons-by-dapino/palm-tree-icon.html
+http://www.iconarchive.com/show/black-twitter-icons-by-iconhive/bird-2-icon.html
+http://www.iconarchive.com/show/fantastic-dream-icons-by-rokey/flying-grass-icon.html
+http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Status-weather-clouds-icon.html
+http://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Status-weather-many-clouds-icon.html
+
+Item Name:gameland.png
 License Type: Freeware
 Author/Attribution: Shyam Lingam (created using icon from icon archive on MS word)
 Source Website: http://www.iconarchive.com/show/summer-holiday-icons-by-dapino/palm-tree-icon.html
