@@ -91,6 +91,8 @@
         android:layout_weight="0.03"
         android:onClick="Playgame"
         android:text="EASY MODE"
+        android:backgroundTint="#FFFF00"
+        android:textColor="#808080"
 
         />
 
@@ -101,6 +103,8 @@
         android:layout_marginTop="60dp"
         android:onClick="Playgame"
         android:text="IMMEDIATE MODE"
+        android:backgroundTint="#FFFF00"
+        android:textColor="#808080"
 
         />
 
@@ -111,6 +115,8 @@
         android:layout_marginTop="60dp"
         android:onClick="returnmenu"
         android:text="Return to Menu"
+        android:backgroundTint="#FFFF00"
+        android:textColor="#808080"
 
         />
 

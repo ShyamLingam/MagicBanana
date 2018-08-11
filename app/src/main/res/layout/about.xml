@@ -109,7 +109,7 @@
         android:id="@+id/textView2"
         android:layout_width="236dp"
         android:layout_height="34dp"
-        android:text="Magic Banana Version 1.0"
+        android:text="Magic Banana Version 2.0"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold"
