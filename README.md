@@ -17,6 +17,11 @@ Easy Mode (Begineers)
 Intermediate Mode ( Advanced Users)
 - This mode has been created for advanced users whom want fast game play and enjoy a challenge
 In Game Music
+In Game Sound effects
+Support Dual Orientation
+-  Support Portrait & Landscape Mode
+
+
 Support on Android Devices
 
 
